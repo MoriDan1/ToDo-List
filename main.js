@@ -14,7 +14,7 @@ button.addEventListener('click',function(){
         activities.push(newActivity)
         showContent()
     }else{
-        alert('Inserisci un attività')
+        alert('Non hai inserito un\'attività da svolgere!')
     }
 })
 
