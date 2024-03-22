@@ -9,16 +9,13 @@ showContent()
 
 button.addEventListener('click',function(){
     const newActivity = inputField.value
-
     if(newActivity.length != 0){
         activities.push(newActivity)
         showContent()
     }else{
-        alert('Non hai inserito un\'attività da svolgere!')
+        alert('Non hai inserito un\'attività da svolgere ne scem!')
     }
 })
-
-
 
 //funzioni
 function showContent(){
@@ -45,6 +42,6 @@ function showContent(){
         })
     
     }else{
-        emptyList.innerHTML = 'Sembra non ci siano attività da svolgere'
+        emptyList.innerHTML = 'Sembra non ci siano attività da svolgere, inseriscile fessarella <3'
     }   
 }
